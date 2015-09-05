@@ -6,7 +6,7 @@
     "Drew Rawitz <email@drewrawitz.com>"
   ],
   "description": "A jQuery Plugin to turn an input placeholder into a floated form label when selected or filled out.",
-  "main": "jquery.floatingFormLabel.js",
+  "main": ["jquery.floatingFormLabel.js", "_floatingFormLabel.scss"],
   "keywords": [
     "jquery",
     "float",

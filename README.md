@@ -32,4 +32,4 @@ There is one option to include:
 * `addRequiredAsterisk` -- **boolean**: Prepend an asterisk to the input placeholder if using the HTML5 Required Property (default: true )
 
 ### CSS
-Make sure to include the `floatingFormLabel.css` file. I've also provided a sass partial, so you can easily just copy that file into your sass folder structure.
+Make sure to include the `_floatingFormLabel.scss` sass partial to your folder structure . I've also included the regular compiled css file if you're not using sass.

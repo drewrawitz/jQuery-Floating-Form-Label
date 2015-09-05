@@ -1,0 +1,26 @@
+.float-label__wrapper {
+  position: relative;
+}
+
+.float-label__wrapper label {
+  position: absolute;
+  left: 7px;
+  top: -6px;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0;
+  background-color: #ffffff;
+  padding: 0 3px;
+  display: none;
+  color: #b3b3b3;
+}
+
+.float-label__wrapper label.float-label--required span {
+  padding-right: 3px;
+  color: #de4a4a;
+}
+
+.float-label--active label {
+  color: #39a4ff;
+}

@@ -1,0 +1,36 @@
+$float-label-bg: #ffffff; // white
+$float-label-color: #b3b3b3; // light gray
+$float-required-color: #de4a4a; // red
+$float-selected-color: #39a4ff; // blue
+
+.float-label {
+  &__wrapper {
+    position: relative;
+
+    label {
+      position: absolute;
+      left: 7px;
+      top: -6px;
+      line-height: 1;
+      font-weight: bold;
+      font-size: 12px;
+      margin: 0;
+      background-color: $float-label-bg;
+      padding: 0 3px;
+      display: none;
+      color: $float-label-color;
+
+      &.float-label--required span {
+        padding-right: 3px;
+        color: $float-required-color;
+      }
+    }
+  }
+
+  // Active state
+  &--active {
+    label {
+      color: $float-selected-color;
+    }
+  }
+}
