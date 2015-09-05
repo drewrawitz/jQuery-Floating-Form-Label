@@ -1,6 +1,8 @@
 # jQuery Floating Form Label
 A jQuery Plugin to turn an input placeholder into a floated form label when selected or filled out.
 
+[See Demo](http://drewrawitz.github.io/demo/jquery-floating-form-label/)
+
 ## Installation
 
 Include [jQuery](http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js) and the `jquery.floatingFormLabel.js` script:
