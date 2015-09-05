@@ -45,6 +45,7 @@ Markup can be flexible, just make sure you add a `float-label` class to the inpu
 #### CSS
 Make sure to include the `_floatingFormLabel.scss` sass partial to your folder structure . I've also included the regular compiled css file if you're not using sass.
 
+## Options
 There is one option to include:
 
 * `addRequiredAsterisk` -- **boolean**: Prepend an asterisk to the input placeholder if using the HTML5 Required Property (default: true )
