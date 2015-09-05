@@ -1,0 +1,29 @@
+{
+  "name": "jquery-floating-form-label",
+  "version": "0.1.0",
+  "homepage": "https://github.com/drewrawitz/jquery-floating-form-label",
+  "authors": [
+    "Drew Rawitz <email@drewrawitz.com>"
+  ],
+  "description": "A jQuery Plugin to turn an input placeholder into a floated form label when selected or filled out.",
+  "main": "jquery.floatingFormLabel.js",
+  "keywords": [
+    "jquery",
+    "float",
+    "floating",
+    "form",
+    "labels",
+    "placeholder"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
+}
