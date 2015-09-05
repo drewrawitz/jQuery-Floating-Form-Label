@@ -18,9 +18,9 @@ bower install jquery-floating-form-label
 ```
 
 ## Using jQuery.floatingFormLabel.js
-Use the plugin like so:
+An example of how this demo page uses this script:
 
-**HTML**:
+####HTML
 Markup can be flexible, just make sure you add a `float-label` class to the inputs you want to float.
 ```html
 <form>
@@ -33,7 +33,7 @@ Markup can be flexible, just make sure you add a `float-label` class to the inpu
 </form>
 ```
 
-**JS**:
+####JS
 ```js
 <script>
   $(document).ready(function () {
@@ -41,9 +41,11 @@ Markup can be flexible, just make sure you add a `float-label` class to the inpu
   });
 </script>
 ```
+
+#### CSS
+Make sure to include the `_floatingFormLabel.scss` sass partial to your folder structure . I've also included the regular compiled css file if you're not using sass.
+
 There is one option to include:
 
 * `addRequiredAsterisk` -- **boolean**: Prepend an asterisk to the input placeholder if using the HTML5 Required Property (default: true )
 
-### CSS
-Make sure to include the `_floatingFormLabel.scss` sass partial to your folder structure . I've also included the regular compiled css file if you're not using sass.
