@@ -20,12 +20,24 @@ bower install jquery-floating-form-label
 ## Using jQuery.floatingFormLabel.js
 Use the plugin like so:
 
+*HTML*:
+Markup can be flexible, just make sure you add a `float-label` class to the inputs you want to float.
+```html
+<form>
+  <div class="form-group">
+    <input type="text" class="float-label" placeholder="Username" required>
+  </div>
+  <div class="form-group">
+    <input type="password" class="float-label" placeholder="Password" required>
+  </div>
+</form>
+```
+
+*JS*:
 ```js
 <script>
   $(document).ready(function () {
-    $(".float-label").floatingFormLabel({
-      addRequiredAsterisk: true
-    });
+    $(".float-label").floatingFormLabel();
   });
 </script>
 ```
