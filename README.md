@@ -20,7 +20,7 @@ bower install jquery-floating-form-label
 ## Using jQuery.floatingFormLabel.js
 Use the plugin like so:
 
-*HTML*:
+**HTML**:
 Markup can be flexible, just make sure you add a `float-label` class to the inputs you want to float.
 ```html
 <form>
@@ -33,7 +33,7 @@ Markup can be flexible, just make sure you add a `float-label` class to the inpu
 </form>
 ```
 
-*JS*:
+**JS**:
 ```js
 <script>
   $(document).ready(function () {
